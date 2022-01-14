@@ -2,7 +2,7 @@ import React from 'react'
 import mealsImage from '../assets/meals.jpg'
 import classes from './Header.module.css'
 
-function Header() {
+function Header(props) {
     return (
         <React.Fragment>
             <header className={classes.header}>
